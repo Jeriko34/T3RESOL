@@ -9,9 +9,9 @@ Console.WriteLine(" 4. TERMINAR");
 Console.WriteLine("-------------------------------------------");
 
 Console.WriteLine("\nIngrese una opción (1-3)");
-while (!byte.TryParse(Console.ReadLine(), out opc1) || opcion2 {
+while (!byte.TryParse(Console.ReadLine(), out opc1) || opc1 > 4) ;
     Console.WriteLine("Error: Ingrese una opción adecuada.");
-}
+
 
 switch (opc1)
 {
