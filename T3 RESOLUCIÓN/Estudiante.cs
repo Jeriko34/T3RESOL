@@ -11,7 +11,7 @@ namespace T3_RESOLUCIÓN
         public int codigo { get; set; }
         public string nombre { get; set; }
         public string universidad { get; set; }
-  
+
 
 
     }
