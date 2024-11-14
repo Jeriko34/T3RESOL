@@ -28,3 +28,4 @@ switch (opc1)
         Environment.Exit(0);
         break;
 }
+Console.ReadKey();
